@@ -1,0 +1,44 @@
+select.form-control.ifcf7-select2.ifcf7-select2-floating-labels ~ .ifcf7-select2-floating-labels-container > .selection {
+	display: block;
+	position: relative;
+}
+select.form-control.ifcf7-select2.ifcf7-select2-floating-labels,
+select.form-control.ifcf7-select2.ifcf7-select2-floating-labels ~ .ifcf7-select2-floating-labels-container > .selection  > .select2-selection--single {
+	height: 3.125rem;
+	padding: .75rem 1.5rem .75rem .75rem;
+}
+select.form-control.ifcf7-select2.ifcf7-select2-floating-labels ~ .ifcf7-select2-floating-labels-container > .selection  > .select2-selection--single > .select2-selection__rendered > .select2-selection__placeholder {
+	color: transparent;
+}
+select.form-control.ifcf7-select2.ifcf7-select2-floating-labels ~ .ifcf7-select2-floating-labels-container > .selection  > label {
+	border: 1px solid transparent;
+	border-radius: .25rem;
+    color: #6c757d;
+    cursor: text; /* Match the input under the label */
+    display: block;
+    height: 3.125rem;
+    left: 0;
+    line-height: 1.5;
+    margin-bottom: 0; /* Override default `<label>` margin */
+    overflow: hidden;
+	padding: .75rem;
+	pointer-events: none;
+    position: absolute;
+    text-overflow: ellipsis;
+	top: 0;
+	white-space: nowrap;
+    width: 100%;
+}
+select.form-control.ifcf7-select2.ifcf7-select2-floating-labels.placeholder-hidden ~ .ifcf7-select2-floating-labels-container > .selection  > .select2-selection--single {
+	padding-bottom: .25rem;
+	padding-top: 1.25rem;
+}
+select.form-control.ifcf7-select2.ifcf7-select2-floating-labels.placeholder-hidden ~ .ifcf7-select2-floating-labels-container > .selection  > .select2-selection--single > .select2-selection__rendered > .select2-selection__clear {
+	margin-top: -8px;
+}
+select.form-control.ifcf7-select2.ifcf7-select2-floating-labels.placeholder-hidden ~ .ifcf7-select2-floating-labels-container > .selection  > label {
+	color: #6c757d;
+	font-size: 12px;
+	padding-bottom: .25rem;
+	padding-top: .25rem;
+}

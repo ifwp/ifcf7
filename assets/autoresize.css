@@ -1,0 +1,5 @@
+textarea.form-control.autoresize {
+	min-height: calc(3em + .75rem + 2px);
+	overflow: hidden;
+    resize: none;
+}

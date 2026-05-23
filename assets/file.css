@@ -1,0 +1,9 @@
+.ifcf7_file_upload > label:hover {
+	/*background-color: #343a40 !important;*/
+	/*border-color: #343a40 !important;*/
+	border-color: #007bff !important;
+	/*color: #fff !important;*/
+}
+.ifcf7_file_container {
+	max-width: calc(100% - 0.5rem);
+}

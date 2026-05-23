@@ -1,0 +1,15 @@
+.ifcf7-iti {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.ifcf7-iti-no-flags .iti__flag-box {
+	display: none;
+}
+.ifcf7-iti-no-flags .iti--separate-dial-code .iti__selected-flag .iti__flag {
+	display: none;
+}
+.ifcf7-iti-no-flags .iti--separate-dial-code .iti__selected-flag .iti__selected-dial-code {
+	margin-left: 0;
+}
+.iti--separate-dial-code .iti__selected-flag {
+	border-right: 1px solid #ced4da;
+}

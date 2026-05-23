@@ -1,0 +1,19 @@
+.ifcf7-tinymce ~ .tox-tinymce {
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.ifcf7-tinymce ~ .tox-tinymce.focused {
+	border-color: #80bdff;
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.ifcf7-tinymce ~ .tox-tinymce:not(.tox-tinymce-inline) .tox-editor-header:not(:first-child) .tox-toolbar-overlord:first-child .tox-toolbar__primary,
+.ifcf7-tinymce ~ .tox-tinymce:not(.tox-tinymce-inline) .tox-editor-header:not(:first-child) .tox-toolbar:first-child {
+	border-top: 0;
+}
+.ifcf7-tinymce.wpcf7-not-valid ~ .tox-tinymce {
+	border-color: #dc3545;
+}
+.ifcf7-tinymce.wpcf7-not-valid ~ .tox-tinymce.focused {
+	border-color: #dc3545;
+	box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}

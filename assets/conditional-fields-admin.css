@@ -1,0 +1,23 @@
+#wpcf7cf-conditional-panel .entry .wpcf7cf-and-rules {
+	margin-top: 30px;
+}
+#wpcf7cf-conditional-panel .entry .wpcf7cf-and-rules .wpcf7cf-and-rule {
+	height: auto;
+	margin-bottom: 6px;
+}
+#wpcf7cf-conditional-panel #wpcf7cf-entries .wpcf7cf-if .label,
+#wpcf7cf-conditional-panel #wpcf7cf-entries .wpcf7cf-if select {
+	display: block;
+}
+#wpcf7cf-conditional-panel #wpcf7cf-entries .wpcf7cf-if select {
+	width: calc(100% - 12px);
+}
+#wpcf7cf-conditional-panel .and-button,
+#wpcf7cf-conditional-panel .delete-button,
+#wpcf7cf-conditional-panel #wpcf7cf-add-button {
+	border-radius: 4px;
+}
+#wpcf7cf-conditional-panel .wpcf7cf-and-rule:first-child .and-button {
+	height: calc(100% - 26px) !important;
+	line-height: 22px !important;
+}

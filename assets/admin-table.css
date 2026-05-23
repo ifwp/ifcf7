@@ -1,0 +1,6 @@
+table.dataTable.ifcf7-admin-table {
+	border-collapse: collapse !important;
+}
+.ifcf7-admin-table > thead > tr.filters > th {
+	padding-right: 0.75rem !important;
+}

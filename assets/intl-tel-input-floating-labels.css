@@ -1,0 +1,56 @@
+.ifcf7-intl-tel-input-floating-labels {
+    display: block;
+    position: relative;
+}
+
+.ifcf7-intl-tel-input-floating-labels > input,
+.ifcf7-intl-tel-input-floating-labels > .iti > input,
+.ifcf7-intl-tel-input-floating-labels > label {
+    height: 3.125rem;
+    padding: .75rem 1rem .75rem calc(2rem + 32px);
+}
+
+.ifcf7-intl-tel-input-floating-labels > label {
+    border: 1px solid transparent;
+	border-radius: .25rem;
+	color: #6c757d; /* var(--gray) */
+	cursor: text; /* Match the input under the label */
+	display: block;
+	left: 0;
+	line-height: 1.5;
+	margin-bottom: 0; /* Override default `<label>` margin */
+	overflow: hidden;
+	pointer-events: none;
+    position: absolute;
+	text-overflow: ellipsis;
+    top: 0;
+    width: 100%;
+	white-space: nowrap;
+}
+
+.ifcf7-intl-tel-input-floating-labels > input::-webkit-input-placeholder,
+.ifcf7-intl-tel-input-floating-labels > .iti > input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.ifcf7-intl-tel-input-floating-labels > input::-moz-placeholder,
+.ifcf7-intl-tel-input-floating-labels > .iti > input::-moz-placeholder {
+    color: transparent;
+}
+
+.ifcf7-intl-tel-input-floating-labels > input::placeholder
+.ifcf7-intl-tel-input-floating-labels > .iti > input::placeholder {
+    color: transparent;
+}
+
+.ifcf7-intl-tel-input-floating-labels > .iti.placeholder-hidden > input {
+    padding-bottom: .25rem;
+	padding-top: 1.25rem;
+}
+
+.ifcf7-intl-tel-input-floating-labels > .iti.placeholder-hidden ~ label {
+    color: #6c757d; /* var(--gray) */
+	font-size: 12px;
+    padding-bottom: .25rem;
+	padding-top: .25rem;
+}

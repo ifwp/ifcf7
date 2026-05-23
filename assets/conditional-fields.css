@@ -1,0 +1,24 @@
+/*.wpcf7cf_next-container > .wpcf7-spinner {
+	display: none !important;
+}
+.wpcf7cf_next > .wpcf7-spinner {
+	display: none;
+    margin: 0 0 0 0.75rem;
+}*/
+.wpcf7cf_next > .ifcf7-spinner {
+	display: none;
+}
+form.submitting .wpcf7cf_next {
+    cursor: default;
+    opacity: .5;
+	pointer-events: none;
+}
+/*form.submitting .wpcf7cf_next > .wpcf7-spinner {
+	display: inline-block;
+}*/
+form.submitting .wpcf7cf_next > .ifcf7-spinner {
+	display: inline-block;
+}
+.wpcf7cf_step:not([data-id="step-1"]) {
+	display: none;
+}

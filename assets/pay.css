@@ -1,0 +1,5 @@
+input[name="ifcf7_cc_exp"],
+input[name="ifcf7_cc_num"],
+input[name="ifcf7_cc_cvv"] {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}

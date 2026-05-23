@@ -1,0 +1,128 @@
+.ifcf7-floating-labels {
+    display: block;
+    position: relative;
+}
+
+.ifcf7-floating-labels > input,
+.ifcf7-floating-labels > label {
+    height: 3.125rem;
+    padding: .75rem;
+}
+
+.ifcf7-floating-labels > textarea {
+    height: 6.25rem;
+	overflow: hidden;
+    padding: .75rem;
+    resize: none;
+}
+
+.ifcf7-floating-labels > select {
+    height: 3.125rem;
+    padding: .75rem;
+}
+
+.ifcf7-floating-labels > label {
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	color: #6c757d; /* var(--gray) */
+	cursor: text; /* Match the input under the label */
+	display: block;
+	left: 0;
+	line-height: 1.5;
+	margin-bottom: 0; /* Override default `<label>` margin */
+	overflow: hidden;
+	pointer-events: none;
+    position: absolute;
+	text-overflow: ellipsis;
+    top: 0;
+    width: 100%;
+	white-space: nowrap;
+}
+
+.ifcf7-floating-labels > input::-webkit-input-placeholder,
+.ifcf7-floating-labels > textarea::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.ifcf7-floating-labels > input::-moz-placeholder,
+.ifcf7-floating-labels > textarea::-moz-placeholder {
+    color: transparent;
+}
+
+.ifcf7-floating-labels > input::placeholder,
+.ifcf7-floating-labels > textarea::placeholder {
+    color: transparent;
+}
+
+.ifcf7-floating-labels > input:not(:-moz-placeholder-shown),
+.ifcf7-floating-labels > textarea:not(:-moz-placeholder-shown) {
+    padding-bottom: .25rem;
+	padding-top: 1.25rem;
+}
+
+.ifcf7-floating-labels > input:not(:placeholder-shown),
+.ifcf7-floating-labels > textarea:not(:placeholder-shown) {
+    padding-bottom: .25rem;
+	padding-top: 1.25rem;
+}
+
+.ifcf7-floating-labels > input:-webkit-autofill,
+.ifcf7-floating-labels > textarea:-webkit-autofill {
+    padding-bottom: .25rem;
+	padding-top: 1.25rem;
+}
+
+.ifcf7-floating-labels > select.placeholder-hidden {
+    padding-bottom: .25rem;
+	padding-top: 1.25rem;
+}
+
+.ifcf7-floating-labels > input:not(:-moz-placeholder-shown) ~ label,
+.ifcf7-floating-labels > textarea:not(:-moz-placeholder-shown) ~ label {
+	color: #6c757d; /* var(--gray) */
+	font-size: 12px;
+	padding-bottom: .25rem;
+    padding-top: .25rem;
+}
+
+.ifcf7-floating-labels > input:not(:placeholder-shown) ~ label,
+.ifcf7-floating-labels > textarea:not(:placeholder-shown) ~ label {
+	color: #6c757d; /* var(--gray) */
+	font-size: 12px;
+	padding-bottom: .25rem;
+    padding-top: .25rem;
+}
+
+.ifcf7-floating-labels > input:-webkit-autofill ~ label,
+.ifcf7-floating-labels > textarea:-webkit-autofill ~ label {
+	color: #6c757d; /* var(--gray) */
+	font-size: 12px;
+	padding-bottom: .25rem;
+    padding-top: .25rem;
+}
+
+.ifcf7-floating-labels > select.placeholder-hidden ~ label {
+	color: #6c757d; /* var(--gray) */
+	font-size: 12px;
+	padding-bottom: .25rem;
+    padding-top: .25rem;
+}
+
+.ifcf7-floating-labels > .form-control::file-selector-button {
+	-webkit-appearance: none;
+	border: 0 !important;
+	border-radius: 0 !important;
+	margin: 0 !important;
+	opacity: 0 !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	pointer-events: none !important;
+	width: 0 !important;
+}
+
+/*.ifcf7-floating-labels > .form-control:not(.form-control-iphone)::file-selector-button {
+	display: none;
+}
+.ifcf7-floating-labels > .form-control.form-control-iphone::file-selector-button {
+	-webkit-appearance: none;
+}*/

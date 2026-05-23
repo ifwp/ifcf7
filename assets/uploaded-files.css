@@ -1,0 +1,29 @@
+.ifcf7-attachments-container:not(:empty) {
+	background-color: #fff;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+}
+.ifcf7-attachments-container > .ifcf7-attachment-container {
+	padding: 0.5rem;
+	/*margin-bottom: 0.5rem;*/
+}
+.ifcf7-attachments-container > .ifcf7-attachment-container:not(:last-child) {
+	border-bottom: 1px solid #dee2e6;
+	/*padding-bottom: 0.5rem;*/
+}
+.ifcf7-attachments-container.ifcf7-before-input:not(:empty) {
+	border-bottom: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.ifcf7-attachments-container.ifcf7-before-input:not(:empty) + .custom-file > .custom-file-label,
+.ifcf7-attachments-container.ifcf7-before-input:not(:empty) + .ifcf7-floating-labels > .form-control {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.ifcf7-attachments-container.ifcf7-before-input:not(:empty) + .custom-file > .custom-file-label::after {
+	border-radius: 0 0 .25rem 0;
+}
+/*.ifcf7-attachments-container > .ifcf7-attachment-container:last-child {
+	margin-bottom: 0;
+}*/
