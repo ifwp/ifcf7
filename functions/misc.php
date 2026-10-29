@@ -355,6 +355,21 @@ if(!function_exists('ifcf7_invalid_fields')){
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+if(!function_exists('ifcf7_menu_slug')){
+    /**
+     * The top level menu of Contact Form 7: "wpcf7-dashboard" since 6.2, "wpcf7" before that. Compared
+     * to 6.2-dev so the betas and release candidates of 6.2, which already carry the new menu, count too.
+     */
+    function ifcf7_menu_slug(){
+        if(defined('WPCF7_VERSION') and version_compare(WPCF7_VERSION, '6.2-dev', '>=')){
+            return 'wpcf7-dashboard';
+        }
+        return 'wpcf7';
+    }
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 if(!function_exists('ifcf7_meta_pref')){
     function ifcf7_meta_pref($name = '', $contact_form = null, $single = true){
 		/*if(null === $contact_form){

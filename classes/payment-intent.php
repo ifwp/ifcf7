@@ -21,7 +21,7 @@ final class Payment_Intent {
         register_post_type('ifcf7-payment-intent', [
             'labels' => ifwp_post_type_labels('Payment intent', 'Payment intents', false),
             'show_in_admin_bar' => false,
-            'show_in_menu' => 'wpcf7',
+            'show_in_menu' => ifcf7_menu_slug(),
             'show_ui' => true,
             'supports' => ['custom-fields', 'title'],
         ]);

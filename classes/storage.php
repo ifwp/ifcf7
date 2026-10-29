@@ -221,7 +221,7 @@ final class Storage {
         register_post_type('ifcf7-submission', [
             'labels' => ifwp_post_type_labels('Submitted message', 'Submitted messages', false),
             'show_in_admin_bar' => false,
-            'show_in_menu' => 'wpcf7',
+            'show_in_menu' => ifcf7_menu_slug(),
             'show_ui' => true,
             'supports' => ['custom-fields', 'title'],
         ]);

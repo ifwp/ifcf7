@@ -3,9 +3,9 @@ Contributors: ifwp
 Donate link: http://luisdelcid.com
 Tags: ifcf7
 Requires at least: 5.0
-Tested up to: 7.0
+Tested up to: 7.1.4
 Requires PHP: 5.6
-Stable tag: 6.5.26
+Stable tag: 6.10.29
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
